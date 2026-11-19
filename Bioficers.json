@@ -202,7 +202,7 @@
       },
       {"name": "Launch Assets", "id": "e18f-e6a0-3a5b-0c3e", "hidden": false, "import": true, "targetId": "9cad-9c67-a317-939d", "type": "selectionEntry"}
     ],
-    "publications": [{"name": "Bioficer Combined Fleet Stats (261104)", "id": "c835-461f-ea00-a841", "hidden": false, "shortName": "Bioficer Stats (261104)"}],
+    "publications": [{"name": "Bioficer Combined Fleet Stats (261119)", "id": "c835-461f-ea00-a841", "hidden": false, "shortName": "Bioficer Stats (261119)"}],
     "sharedRules": [
       {
         "name": "Concussion Prism (Attached)",
@@ -7459,7 +7459,7 @@
                   {"name": "Cost", "$text": "1AP", "typeId": "e725-1a05-f360-abc6"},
                   {
                     "name": "Effect",
-                    "$text": "When you assign a Group's weapons to a target, each of the attacking Group's Weapon Systems with \"Barb\" in their name gain Bloom-1, Flash-1, and Critical-1 for that attack.",
+                    "$text": "When you assign a Group's weapons to a target, each of the attacking Group's Weapon Systems with \"Barb\" in their name gain Bloom-1, Flash-1, and Critical-1 for that attack. Weapons with any of those special rules already increase that special rule's X value by 1 for that attack.",
                     "typeId": "49ae-26b2-d6ec-81aa"
                   }
                 ]

@@ -10,7 +10,7 @@
     "library": true,
     "revision": 50,
     "type": "catalogue",
-    "publications": [{"name": "Fleet Space Stations (261104)", "id": "4be7-d555-8518-dd99", "hidden": false, "shortName": "Fleet Space Stations (261104)"}],
+    "publications": [{"name": "Fleet Space Stations (261119)", "id": "4be7-d555-8518-dd99", "hidden": false, "shortName": "Fleet Space Stations (261119)"}],
     "sharedRules": [
       {
         "name": "Gravity Manipulator",
@@ -166,11 +166,24 @@
             "costs": [{"name": "pts", "typeId": "ab32-c9b6-10f3-cbdb", "value": 45}],
             "entryLinks": [
               {
+                "name": "Weapons Control",
+                "id": "0a47-6db1-5fae-10f2",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "d5bf-be0a-77ca-4145",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "c046-b916-8d86-06f8", "field": "selections", "scope": "parent", "shared": false, "type": "min", "value": 1},
+                  {"id": "7dc7-8b0c-b73c-8f23", "field": "selections", "scope": "parent", "shared": false, "type": "max", "value": 1}
+                ]
+              },
+              {
                 "name": "Life Support",
                 "id": "e8e8-a402-037d-1ccc",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 1,
+                "sortIndex": 2,
                 "targetId": "b4a2-dd7d-9c2c-822b",
                 "type": "selectionEntry",
                 "constraints": [
@@ -183,7 +196,7 @@
                 "id": "d2af-3617-c19a-e952",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 2,
+                "sortIndex": 3,
                 "targetId": "5a44-d602-e556-ffb7",
                 "type": "selectionEntryGroup"
               },
@@ -192,7 +205,7 @@
                 "id": "4737-6467-6944-f2a3",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 3,
+                "sortIndex": 4,
                 "targetId": "36e8-0b5d-d2bd-9075",
                 "type": "selectionEntryGroup",
                 "constraints": [{"id": "ee83-542f-4683-8b3a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
@@ -202,7 +215,7 @@
                 "id": "ba7b-d6dd-ee25-d92c",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 4,
+                "sortIndex": 5,
                 "targetId": "d798-ad43-7da6-7ad1",
                 "type": "selectionEntryGroup",
                 "constraints": [
@@ -254,11 +267,24 @@
             "costs": [{"name": "pts", "typeId": "ab32-c9b6-10f3-cbdb", "value": 65}],
             "entryLinks": [
               {
+                "name": "Weapons Control",
+                "id": "4c5a-51a8-4b4f-8432",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "d5bf-be0a-77ca-4145",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "9a94-e19c-94f1-8b20", "field": "selections", "scope": "parent", "shared": false, "type": "min", "value": 1},
+                  {"id": "6404-2516-b744-56fb", "field": "selections", "scope": "parent", "shared": false, "type": "max", "value": 1}
+                ]
+              },
+              {
                 "name": "Life Support",
                 "id": "a1dc-543b-335f-4abb",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 1,
+                "sortIndex": 2,
                 "targetId": "b4a2-dd7d-9c2c-822b",
                 "type": "selectionEntry",
                 "constraints": [
@@ -271,7 +297,7 @@
                 "id": "ba98-8328-4015-7955",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 2,
+                "sortIndex": 3,
                 "targetId": "5a44-d602-e556-ffb7",
                 "type": "selectionEntryGroup"
               },
@@ -280,7 +306,7 @@
                 "id": "60d9-3ca6-820c-9d07",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 3,
+                "sortIndex": 4,
                 "targetId": "36e8-0b5d-d2bd-9075",
                 "type": "selectionEntryGroup",
                 "constraints": [{"id": "9bd7-44db-1b6d-99d5", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
@@ -290,7 +316,7 @@
                 "id": "9e82-1429-15af-e978",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 4,
+                "sortIndex": 5,
                 "targetId": "d798-ad43-7da6-7ad1",
                 "type": "selectionEntryGroup",
                 "constraints": [
@@ -2577,7 +2603,7 @@
               {"name": "Hull", "$text": "5", "typeId": "7276-bde5-6c1c-affe"},
               {
                 "name": "Effect",
-                "$text": "This feature uses its Space Station's best available saves. When all Launch Control Features are removed from a Space Station, that Station cannot Launch Assets",
+                "$text": "This feature uses its Space Station's best available saves. When all Launch Control Features are removed from a Space Station, that Station cannot Launch Assets. Deployed Features may still be used.",
                 "typeId": "7e8c-6ffe-f6b0-cba1"
               }
             ]
@@ -2604,7 +2630,7 @@
               {"name": "Hull", "$text": "5", "typeId": "7276-bde5-6c1c-affe"},
               {
                 "name": "Effect",
-                "$text": "This feature uses its Space Station's best available saves. When all Weapons Control Features are removed from a Space Station, that Station cannot use its Weapon Systems",
+                "$text": "This feature uses its Space Station's best available saves. When all Weapons Control Features are removed from a Space Station, that Station cannot use its Weapon Systems. Deployed Features may still be used.",
                 "typeId": "7e8c-6ffe-f6b0-cba1"
               }
             ]

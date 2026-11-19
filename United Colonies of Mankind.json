@@ -267,7 +267,7 @@
       },
       {"name": "Launch Assets", "id": "d611-8ddb-8967-32b1", "hidden": false, "import": true, "targetId": "76f2-9ded-5c83-da35", "type": "selectionEntry"}
     ],
-    "publications": [{"name": "UCM Combined Fleet Stats (261104)", "id": "9813-8e60-542d-9381", "hidden": false, "shortName": "UCM Stats (261104)"}],
+    "publications": [{"name": "UCM Combined Fleet Stats (261119)", "id": "9813-8e60-542d-9381", "hidden": false, "shortName": "UCM Stats (261119)"}],
     "sharedRules": [
       {
         "name": "Feature Carrier",
@@ -9395,7 +9395,7 @@
                   {"name": "Cost", "$text": "2AP", "typeId": "e725-1a05-f360-abc6"},
                   {
                     "name": "Effect",
-                    "$text": "When you assign a \"Mass Driver\" Weapon System to targets, that Weapon System improves its Lock by 1 for that attack sequence. If that Weapon System already has a Lock value of 2+, it causes criticals on a result of a 3+ for that attack sequence instead.",
+                    "$text": "When you assign a \"Mass Driver\" Weapon System to targets, that Weapon System improves its Lock by 1 for that attack sequence. If that Weapon System already has a Lock value of 2+, instead lower the result required to score a critical by 1 for that attack.",
                     "typeId": "49ae-26b2-d6ec-81aa"
                   }
                 ]

@@ -234,7 +234,7 @@
       },
       {"name": "Launch Assets", "id": "7187-191c-80f4-cd13", "hidden": false, "import": true, "targetId": "702c-ed66-e9cc-621e", "type": "selectionEntry"}
     ],
-    "publications": [{"name": "Resistance Combined Fleet Stats (261104)", "id": "7fb8-995d-767a-783d", "hidden": false, "shortName": "Resistance Stats (261104)"}],
+    "publications": [{"name": "Resistance Combined Fleet Stats (261119)", "id": "7fb8-995d-767a-783d", "hidden": false, "shortName": "Resistance Stats (261119)"}],
     "sharedRules": [
       {
         "name": "Box Of Scraps",
@@ -6763,7 +6763,7 @@
         "name": "NL-9 Laser Turret Pair",
         "id": "cbbe-6b9b-4cbd-aa13",
         "collective": true,
-        "comment": "F/S 4/2+/1/E Fl-2 Foc Fus-2 Rv-1 Vol-2",
+        "comment": "F/S 4/2+/1/E Fl-1 Foc Fus-1 Rv-1 Vol-2",
         "hidden": false,
         "import": true,
         "type": "upgrade",
@@ -6791,7 +6791,7 @@
               {"name": "Lock", "$text": "2+", "typeId": "ddfe-5610-8f1a-650d"},
               {"name": "DMG", "$text": "1", "typeId": "31b1-2e8b-0b99-b1c7"},
               {"name": "Type", "$text": "E", "typeId": "8f83-3218-7832-0818"},
-              {"name": "Special", "$text": "Flash-2, Focused, Fusillade-2, Reave-1, Volley-2", "typeId": "1e8b-4801-6eb9-f278"}
+              {"name": "Special", "$text": "Flash-1, Focused, Fusillade-1, Reave-1, Volley-2", "typeId": "1e8b-4801-6eb9-f278"}
             ]
           }
         ]
@@ -8589,7 +8589,7 @@
                   {"name": "Cost", "$text": "1AP", "typeId": "e725-1a05-f360-abc6"},
                   {
                     "name": "Effect",
-                    "$text": "When you assign a Group's Weapon System with Damage 2 or higher to targets, double the Attack value of that Weapon System and that Weapon System has an unmodifiable Lock Value of 4+ and only causes criticals on a 6+ for this attack and cannot have its dice rolls modified in any way. If this Ability affects a Weapon System with an Arc of B, it costs an additional 1AP. If this Ability affects a Weapon System on a Ship of H or C Tonnage, this Ability costs an additional 1AP (additional costs are cumulative).",
+                    "$text": "When you assign a Group's Weapon System with Damage value of 2 or higher (before any special rules) to targets, double the Attack value of that Weapon System and that Weapon System has an unmodifiable Lock value of 4+ and only causes criticals on a 6+ for this attack and cannot have its dice rolls modified in any way. If this Ability affects a Weapon System with an Arc of B, it costs an additional 1AP. If this Ability affects a Weapon System on a Ship of H or C Tonnage, this Ability costs an additional 1AP (additional costs are cumulative).",
                     "typeId": "49ae-26b2-d6ec-81aa"
                   }
                 ]

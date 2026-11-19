@@ -10,7 +10,7 @@
     "library": true,
     "revision": 50,
     "type": "catalogue",
-    "publications": [{"name": "Dropfleet Commander Rulebook (v2.4.0)", "id": "04e8-9aab-577a-59dd", "hidden": false, "shortName": "DFC Rulebook (v2.4.0)"}],
+    "publications": [{"name": "Dropfleet Commander Rulebook (v2.4.1)", "id": "04e8-9aab-577a-59dd", "hidden": false, "shortName": "DFC Rulebook (v2.4.1)"}],
     "sharedSelectionEntries": [
       {"name": "----- Weapons -----", "id": "0c49-875c-ddd0-5828", "hidden": true, "import": false, "type": "upgrade"},
       {"name": "----- Load -----", "id": "3ccb-ed92-f300-0230", "hidden": true, "import": false, "type": "upgrade"},

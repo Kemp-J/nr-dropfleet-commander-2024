@@ -658,7 +658,7 @@
         ]
       }
     ],
-    "publications": [{"name": "Dropfleet Commander Rulebook (v2.4.0)", "id": "45b0-3e3b-e83d-fd70", "hidden": false, "shortName": "DFC Rulebook (v2.4.0)"}],
+    "publications": [{"name": "Dropfleet Commander Rulebook (v2.4.1)", "id": "45b0-3e3b-e83d-fd70", "hidden": false, "shortName": "DFC Rulebook (v2.4.1)"}],
     "sharedRules": [
       {
         "name": "Aegis-X",
@@ -899,7 +899,7 @@
       {
         "name": "High Power",
         "id": "4a8c-aae4-c959-2437",
-        "description": "Unless the attacking Ship is on the Weapons Free Order, attacking with this Weapon counts as attacking with two Weapons (though it only fires once).\nShips with only a single High Power Weapon can only attack with it while on the Weapons Free Order.",
+        "description": "Unless the attacking Ship is on the Weapons Free Order, attacking with this Weapon counts as attacking with two Weapons (though it only fires once).\nShips with only a single Weapon cannot attack with it if that Weapon is High Power, unless on the Weapons Free Order.",
         "hidden": false
       },
       {
@@ -989,7 +989,7 @@
       {
         "name": "Anti Wing",
         "id": "d7b1-2768-13e8-009f",
-        "description": "This weapon may target enemy Wings as if they were Ships (with a Sig of 0\") but reduces its Lock value by 1 for that attack. If it does, for each hit, remove 1 Fighter or 1 Bomber from that Wing or any other enemy Wing within 3\" of the target.\nWhen this weapon is assigned to a Torpedo, it reduces its Lock value by 1 instead of always hitting on a 6+.\"",
+        "description": "This weapon may target enemy Wings as if they were Ships (with a Sig of 0\") but reduces its Lock value by 1 for that attack. If it does, for each hit, remove 1 Fighter or 1 Bomber from that Wing or any other enemy Wing within 3\" of the target.\nWhen this weapon is assigned to a Torpedo or Mine, it reduces its Lock value by 1 instead of always hitting on a 6+. Hits from this attack may be used to remove Torpedoes and Mines within 3\" of the target.",
         "hidden": false
       },
       {
