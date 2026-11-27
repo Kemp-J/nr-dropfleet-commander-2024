@@ -526,7 +526,8 @@
             "type": "model",
             "categoryLinks": [
               {"name": "Group", "id": "554f-6ea0-1fe3-03b8", "primary": false, "targetId": "default-category"},
-              {"name": "Medium Groups", "id": "a947-b5ff-1fa7-e6c9", "primary": false, "targetId": "e555-ff57-c478-18cd"}
+              {"name": "Medium Groups", "id": "a947-b5ff-1fa7-e6c9", "primary": false, "targetId": "e555-ff57-c478-18cd"},
+              {"name": "Medium Ship", "id": "ce88-6251-965e-6d55", "primary": false, "targetId": "53c3-afc0-63ef-413a"}
             ],
             "constraints": [
               {"id": "e765-50f9-52ba-58c8", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -643,7 +644,8 @@
             "categoryLinks": [
               {"name": "Group", "id": "f1ef-0639-21c6-bf72", "primary": false, "targetId": "default-category"},
               {"name": "Heavy Groups", "id": "918b-cb79-3c90-21b4", "primary": false, "targetId": "8d99-053d-ffeb-98c5"},
-              {"name": "Heavy and Colossal Groups", "id": "9636-13c1-4d7b-5a45", "primary": false, "targetId": "63dd-715b-bc44-56e6"}
+              {"name": "Heavy and Colossal Groups", "id": "9636-13c1-4d7b-5a45", "primary": false, "targetId": "63dd-715b-bc44-56e6"},
+              {"name": "Heavy Ship", "id": "4ee5-07e5-a064-95a7", "primary": false, "targetId": "9d6f-26b0-7969-496b"}
             ],
             "constraints": [
               {"id": "42a4-e9d3-125b-9255", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -823,7 +825,8 @@
             "categoryLinks": [
               {"name": "Group", "id": "c188-8a05-ba53-e4f0", "primary": false, "targetId": "default-category"},
               {"name": "Heavy Groups", "id": "e7e3-2e76-153a-827e", "primary": false, "targetId": "8d99-053d-ffeb-98c5"},
-              {"name": "Heavy and Colossal Groups", "id": "3e90-9a90-531c-57b0", "primary": false, "targetId": "63dd-715b-bc44-56e6"}
+              {"name": "Heavy and Colossal Groups", "id": "3e90-9a90-531c-57b0", "primary": false, "targetId": "63dd-715b-bc44-56e6"},
+              {"name": "Heavy Ship", "id": "be96-791c-ae3d-e4a4", "primary": false, "targetId": "9d6f-26b0-7969-496b"}
             ],
             "constraints": [
               {"id": "d539-4427-59fb-40ee", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -1043,7 +1046,8 @@
             "categoryLinks": [
               {"name": "Group", "id": "0267-cf66-0fc8-f938", "primary": false, "targetId": "default-category"},
               {"name": "Colossal Groups", "id": "7903-79ff-e712-8943", "primary": false, "targetId": "52fa-6578-d171-57d6"},
-              {"name": "Heavy and Colossal Groups", "id": "612c-c52f-5321-5a2d", "primary": false, "targetId": "63dd-715b-bc44-56e6"}
+              {"name": "Heavy and Colossal Groups", "id": "612c-c52f-5321-5a2d", "primary": false, "targetId": "63dd-715b-bc44-56e6"},
+              {"name": "Colossal Ship", "id": "8f30-39aa-ff27-a071", "primary": false, "targetId": "6e44-cb75-e25f-8b24"}
             ],
             "constraints": [
               {"id": "661f-5043-9ec2-9932", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},

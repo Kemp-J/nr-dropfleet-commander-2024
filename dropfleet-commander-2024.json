@@ -81,6 +81,17 @@
                 "scope": "roster",
                 "shared": true,
                 "value": 1
+              },
+              {
+                "childId": "6581-d170-3831-34cd",
+                "childName": "Admiral Occupies Additional Ship",
+                "field": "selections",
+                "includeChildSelections": true,
+                "repeats": 1,
+                "roundUp": false,
+                "scope": "roster",
+                "shared": true,
+                "value": 1
               }
             ]
           }
@@ -424,7 +435,8 @@
       {"name": "Heavy Group Spend Exempt", "id": "ba1b-a548-3bf5-d083", "hidden": false},
       {"name": "Colossal Group Spend Exempt", "id": "f3a6-c356-0b50-7b14", "hidden": false},
       {"name": "Cannot Carry Admiral", "id": "7931-f335-5f97-a5db", "hidden": false},
-      {"name": "Capital Hero Ship", "id": "abb3-5009-c046-f940", "hidden": false}
+      {"name": "Capital Hero Ship", "id": "abb3-5009-c046-f940", "hidden": false},
+      {"name": "Admiral Occupies Additional Ship", "id": "6581-d170-3831-34cd", "hidden": false}
     ],
     "costTypes": [{"name": "pts", "id": "ab32-c9b6-10f3-cbdb", "defaultCostLimit": -1}],
     "entryLinks": [
